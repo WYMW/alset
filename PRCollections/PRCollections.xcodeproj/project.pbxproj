@@ -17,7 +17,6 @@
 		CA36AEB9245BF5BF0061C0C9 /* PRCollectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36AEB8245BF5BF0061C0C9 /* PRCollectionsTests.m */; };
 		CA36AEC4245BF5BF0061C0C9 /* PRCollectionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36AEC3245BF5BF0061C0C9 /* PRCollectionsUITests.m */; };
 		CA36AED4245C6B230061C0C9 /* PRURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36AED3245C6B230061C0C9 /* PRURLSessionManager.m */; };
-		CA4922582464461800B5D350 /* UIImageView+retry.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4922572464461800B5D350 /* UIImageView+retry.m */; };
 		CA5BADA2245D1C6E0020929F /* PRURLSessionManagerTaskDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5BADA1245D1C6E0020929F /* PRURLSessionManagerTaskDelegate.m */; };
 /* End PBXBuildFile section */
 
@@ -59,8 +58,6 @@
 		CA36AEC5245BF5BF0061C0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA36AED2245C6B230061C0C9 /* PRURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRURLSessionManager.h; sourceTree = "<group>"; };
 		CA36AED3245C6B230061C0C9 /* PRURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRURLSessionManager.m; sourceTree = "<group>"; };
-		CA4922562464461800B5D350 /* UIImageView+retry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+retry.h"; sourceTree = "<group>"; };
-		CA4922572464461800B5D350 /* UIImageView+retry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+retry.m"; sourceTree = "<group>"; };
 		CA5BADA0245D1C6E0020929F /* PRURLSessionManagerTaskDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRURLSessionManagerTaskDelegate.h; sourceTree = "<group>"; };
 		CA5BADA1245D1C6E0020929F /* PRURLSessionManagerTaskDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRURLSessionManagerTaskDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,8 +122,6 @@
 				CA36AEAA245BF5BE0061C0C9 /* LaunchScreen.storyboard */,
 				CA36AEAD245BF5BE0061C0C9 /* Info.plist */,
 				CA36AEAE245BF5BE0061C0C9 /* main.m */,
-				CA4922562464461800B5D350 /* UIImageView+retry.h */,
-				CA4922572464461800B5D350 /* UIImageView+retry.m */,
 			);
 			path = PRCollections;
 			sourceTree = "<group>";
@@ -291,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA36AEA4245BF5BD0061C0C9 /* ViewController.m in Sources */,
-				CA4922582464461800B5D350 /* UIImageView+retry.m in Sources */,
 				CA36AE9E245BF5BD0061C0C9 /* AppDelegate.m in Sources */,
 				CA36AEAF245BF5BE0061C0C9 /* main.m in Sources */,
 				CA36AED4245C6B230061C0C9 /* PRURLSessionManager.m in Sources */,

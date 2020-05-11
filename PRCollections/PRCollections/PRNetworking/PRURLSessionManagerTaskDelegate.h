@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^PRURLSessionTaskProgressBlock)(NSProgress *progress);
+typedef void (^PRURLSessionTaskCompleteBlock)(NSURLResponse *response, id responseObject, NSError *error);
 
 @interface PRURLSessionManagerTaskDelegate : NSObject <NSURLSessionTaskDelegate, NSURLSessionDataDelegate, NSURLSessionDownloadDelegate>
 - (instancetype)initWithTask:(NSURLSessionTask *)task;
@@ -21,6 +22,7 @@ typedef void (^PRURLSessionTaskProgressBlock)(NSProgress *progress);
 @property (nonatomic, strong) NSURL *downloadFileURL;
 @property (nonatomic, copy) PRURLSessionTaskProgressBlock downloadProgressBlock;
 @property (nonatomic, copy) PRURLSessionTaskProgressBlock uploadProgressBlock;
+@property (nonatomic, copy) PRURLSessionTaskCompleteBlock completeBlock;
 
 @end
 

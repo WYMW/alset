@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UIImageView+retry.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +21,11 @@
     imageView.frame = CGRectMake(100, 100, 200, 200);
     imageView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:imageView];
+    
+    [imageView removeFromSuperview];
+    [imageView removeFromSuperview];
+
+    
     
 }
 
